@@ -1,0 +1,25 @@
+name: tf-modern
+
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scikit-learn
+  - scipy
+  - scikit-learn
+  - jupyterlab
+  - pip:
+    - pip
+    - tensorflow[and-cuda]==2.14.0
+    - tensorflow_datasets
+    - tensorflow_probability
+    - tensorboard
+    - tensorboard-plugin-profile
+    - matplotlib
+    - seaborn
+    - pandas
